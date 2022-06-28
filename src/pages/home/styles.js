@@ -27,7 +27,7 @@ export const ContainerSiid = styled.View`
 export const Slidimg = styled.Image`
    width: 150px;
    height: 150px;
-   border-radius: 100px;
+   border-radius: 30px;
 
 `
 export const HeaderSlid = styled.View`

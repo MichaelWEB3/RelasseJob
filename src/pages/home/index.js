@@ -29,7 +29,7 @@ export default () => {
             elevation: 15,
             width: 370,
             margin: 20,
-            height: 500,
+            height: 550,
             justifyCcontent: 'center',
             alignItems: 'center',
             backgroundColor: '#363434',

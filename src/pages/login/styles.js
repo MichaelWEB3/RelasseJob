@@ -9,9 +9,13 @@ export const Container = styled.SafeAreaView`
     color: white  ;
 `
 
+export const ContainerScroll = styled.ScrollView`
+flex: 1;
+`
 export const AreaLogin = styled.View`
-  width: 80%;
-  height: auto;
+flex: 1;
+  width: 350px;
+  height: 800px;
   justify-content: center;
     align-items: center;
 `

@@ -34,9 +34,7 @@ export function UserProvider(props) {
                     setusrsDb(list)
                 });
         }
-
         getUSersDb()
-
     }, [])
 
 
@@ -187,9 +185,15 @@ export function UserProvider(props) {
     async function addfave(item) {
         console.log(item)
         if (user?.fav.length != 0) {
+            console.log("aqui1")
+
             let i = 0
             for (i; i <= user?.fav.length; i++) {
-                if (user?.fav[i] == item.email) return false
+                console.log(user?.fav[i].email)
+                if (user?.fav[i].email === item.email) {
+                    alert('Usuario ja favoritado')
+                    return false
+                }
             }
             firestore().collection('users').doc(token).update({
                 fav: [...user?.fav, item],

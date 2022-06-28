@@ -10,6 +10,7 @@ export const VoltarArea = styled.View`
   width: 100%;
   height: 50px;
   justify-content: flex-start;
+  
 `
 
 export const Buttonvolta = styled.TouchableOpacity`

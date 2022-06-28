@@ -23,20 +23,25 @@ export default function () {
         }
     }, [date.token])
     return (
+
+
         <S.Container>
-            <S.AreaLogin>
-                <S.Logo source={require('../../assets/logo.png')}></S.Logo>
-                <InputLogin pleaceholder={'E-mail de usuario'} value={user} onChangeText={text => setUSer(text)} IconSvg={IcomEamil} />
-                <InputLogin pleaceholder={'senha'} value={passworld} onChangeText={text => setpassworld(text)} password={true} IconSvg={IConPassword} />
-                <S.LoginButton onPress={() => handlerLogin()}>
-                    <S.LoginButtonText>Logar</S.LoginButtonText>
-                </S.LoginButton>
-                <S.SpanCadastroButton>
-                    <S.SpanCadastro onPress={() => navigation.navigate('Preregister')}>
-                        Não tem conta ? <S.SpanCadastro style={{ fontWeight: 'bold' }}>Crie sua conta</S.SpanCadastro>
-                    </S.SpanCadastro>
-                </S.SpanCadastroButton>
-            </S.AreaLogin>
+            <S.ContainerScroll>
+                <S.AreaLogin>
+                    <S.Logo source={require('../../assets/logo.png')}></S.Logo>
+                    <InputLogin pleaceholder={'E-mail de usuario'} value={user} onChangeText={text => setUSer(text)} IconSvg={IcomEamil} />
+                    <InputLogin pleaceholder={'senha'} value={passworld} onChangeText={text => setpassworld(text)} password={true} IconSvg={IConPassword} />
+                    <S.LoginButton onPress={() => handlerLogin()}>
+                        <S.LoginButtonText>Logar</S.LoginButtonText>
+                    </S.LoginButton>
+                    <S.SpanCadastroButton>
+                        <S.SpanCadastro onPress={() => navigation.navigate('Preregister')}>
+                            Não tem conta ? <S.SpanCadastro style={{ fontWeight: 'bold' }}>Crie sua conta</S.SpanCadastro>
+                        </S.SpanCadastro>
+                    </S.SpanCadastroButton>
+                </S.AreaLogin>
+            </S.ContainerScroll >
         </S.Container>
+
     )
 }
