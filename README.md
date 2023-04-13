@@ -49,9 +49,10 @@ Inicie o servidor | start the server
 ![App Screenshot](https://github.com/MichaelWEB3/RelasseJob/blob/main/job5.PNG?raw=true)
 ![App Screenshot](https://github.com/MichaelWEB3/RelasseJob/blob/main/job6.PNG?raw=true)
 ![App Screenshot](https://github.com/MichaelWEB3/RelasseJob/blob/main/job7.PNG?raw=true)
+![App Screenshot](https://github.com/MichaelWEB3/RelasseJob/blob/main/job8.PNG?raw=true)
 
 
 ## Stack utilizada
 
-**Front-end:**React native, Styleed-component
+**Front-end:**React native, Styleed-component  e Firebase
 
