@@ -1,12 +1,57 @@
-# App_List_GitHub
-Primeira versão do aplicativo, aonde você cria conta como um candidato ou como uma empresa, se voce se cadastrar como candidato, aparecerá empresas para você, Vice-versa. APP criado com React Native e FireBase, ultizando todas as ferramentas disponibilizadas do fireabse nesse projeto.
 
-# Passo 1
-Clone o repositório 
+# RellaseJob💻 
+ 🖊 
 
-# Passo 2 
-Instale as depedencias com npm install ou yarn install
+Aplicativo feito em React native e firebase, se consiste em um aplicativo que relaciona trabalhadores disponiveis e empresas buscando por trabalhadores.
+
+## Funcionalidades   💎 
 
 
-# Passo 3
-Start a aplicação com react-native run-android
+- Preview em tempo real
+- Modo tela cheia
+- Multiplataforma
+
+
+## Rodando localmente  | running locally ⚙️ 
+
+Clone o projeto | Clone the project
+
+```bash
+  git clone https://link-para-o-projeto
+```
+
+Entre no diretório do projeto | Enter the project directory
+
+```bash
+  cd my-project
+```
+
+Instale as dependências | install the dependencies
+
+```bash
+  npm install
+```
+
+Inicie o servidor | start the server
+
+```bash
+  npm run start
+  npm run android
+```
+
+
+## Screenshots
+
+![App Screenshot](https://github.com/MichaelWEB3/RelasseJob/blob/main/job1.PNG?raw=true)
+![App Screenshot](https://github.com/MichaelWEB3/RelasseJob/blob/main/job2.PNG?raw=true)
+![App Screenshot](https://github.com/MichaelWEB3/RelasseJob/blob/main/job3.PNG?raw=true)
+![App Screenshot](https://github.com/MichaelWEB3/RelasseJob/blob/main/job4.PNG?raw=true)
+![App Screenshot](https://github.com/MichaelWEB3/RelasseJob/blob/main/job5.PNG?raw=true)
+![App Screenshot](https://github.com/MichaelWEB3/RelasseJob/blob/main/job6.PNG?raw=true)
+![App Screenshot](https://github.com/MichaelWEB3/RelasseJob/blob/main/job7.PNG?raw=true)
+
+
+## Stack utilizada
+
+**Front-end:**React native, Styleed-component
+
